@@ -25,7 +25,7 @@ navbarTemplate.innerHTML = `
       color: #f7fafc;
     }
   </style>
-    <nav class="h-14 bg-gray-400 text-green-400 flex w-screen items-center">
+    <nav>
         <a href="/">Home</a>
         <a href="/about.html">About</a>
     </nav>
