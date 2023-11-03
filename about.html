@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="output/output.css" />
+    <script src="js/components.js"></script>
     <title>About</title>
     <style>
       @media (prefers-color-scheme: dark) {
@@ -35,21 +39,24 @@
   </head>
 
   <body
+    class="text-gray-300"
     style="
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-        sans-serif;
+      font-family: GeistSans, system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
     "
   >
-    <main>
-      <h1>About Me</h1>
-      <p>
+    <navbar-element></navbar-element>
+    <main class="m-10 font-[100]">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl">About Me</h1>
+      <p class="text-xl">
         I'm a senior at Inglemoor High School intending to major in computer
         science. My interests range from algorithms, web development, CLI tool
         development, research in parallel and distributed software, and social
         software.
       </p>
-      <p>
+      <br />
+      <p class="text-xl">
         I've created software for the Technology Student Association
         competition, University of Washington Bothell, Future Business Leaders
         of America competition, International Biology Bowl, and more.
